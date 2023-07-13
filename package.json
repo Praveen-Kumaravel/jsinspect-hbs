@@ -1,6 +1,6 @@
 {
-  "name": "jsinspect-hbs",
-  "version": "0.0.1",
+  "name": "jsinspect",
+  "version": "0.12.7",
   "description": "Detect structural similarities in your code",
   "keywords": [
     "inspect",
@@ -11,12 +11,12 @@
     "copy",
     "paste"
   ],
-  "author": "Praveen Kumaravel <praveen.kumaravel@freshworks.com>",
+  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Praveen-Kumaravel/jsinspect-hbs",
+  "homepage": "https://github.com/danielstjules/jsinspect",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Praveen-Kumaravel/jsinspect-hbs.git"
+    "url": "https://github.com/danielstjules/jsinspect.git"
   },
   "dependencies": {
     "babylon": "6.16.1",
@@ -35,7 +35,7 @@
     "mocha": "^3.5.0"
   },
   "bin": {
-    "jsinspect-hbs": "./bin/jsinspect"
+    "jsinspect": "./bin/jsinspect"
   },
   "scripts": {
     "test": "mocha -R spec spec spec/reporters"
