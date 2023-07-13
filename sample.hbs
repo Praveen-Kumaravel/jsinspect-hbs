@@ -1,0 +1,50 @@
+{{#if isActionCell}}
+  {{#if (has-access privilege="appointment_edit")}}
+    <div class="btn-group pull-right flex">
+      {{#if showActions}}
+      {{fsa-button
+        type="button"
+        btnClass="fsa-btn-secondary truncate-right"
+        btnText=(text-formatter-i18n appointmentRowCTA.label app=appointmentRowCTA.appName truncate=false)
+        svgName=appointmentRowCTA.icon
+        svgClass="svg-md mg-r-5"
+        onclick=(action appointmentRowCTA.actionName appointmentRowCTA.param)}}
+      {{/if}}
+
+      {{#if moreActions.length}}
+          {{#basic-dropdown horizontalPosition=(if (is-RTL) 'left' 'right') as |dd|}}
+              {{#dd.trigger class="pull-right"}}
+                {{fsa-button
+                  type="button"
+                  btnClass=dropDownClass
+                  svgName="icon-ellipsis-v"
+                  svgClass="svg-md"
+                  data-test-more-actions=true}}
+              {{/dd.trigger}}
+
+              {{#dd.content class="basic-dropdown-menu fsa-dropdown-menu home-page--dropdown"}}
+                {{#each moreActions as |actionInfo|}}
+                  {{#if actionInfo.isDivider}}
+                      <li class="divider"></li>
+                  {{else if actionInfo.targetableActions}}
+                    {{module-dashboard/home-page/entity-common-actions targetable=targetable showDivider=(not isCompleted) dd=dd activityType='Appointment' activity=model calculatePosition=(action "getPosition" (is-RTL))}}
+                  {{else}}
+
+                    {{#if actionInfo.children}}
+
+                      {{child-dropdown data = actionInfo onItemClick = (action "snooze") calculatePosition=(action "getPosition" (is-RTL)) renderInPlace=true}}
+
+                    {{else}}
+                    <li {{action "invokeAction" actionInfo.actionName}} class="menu-item icon-shade-default">
+                        {{svg-jar actionInfo.icon class="svg-md mg-r-10"}}
+                          <span class="icon-align">
+                            {{text-formatter-i18n actionInfo.label truncate=true width="400px"}}
+                          </span>
+                      </li>
+                    {{/if}}
+                  {{/if}}
+                {{/each}}
+              {{/dd.content}}
+            {{/basic-dropdown}}
+      {{/if}}
+    </div>

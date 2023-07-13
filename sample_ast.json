@@ -1,0 +1,3410 @@
+{
+    "type": "Template",
+    "body": [
+      {
+        "type": "TextNode",
+        "chars": "\n    ",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 4
+          }
+        }
+      },
+      {
+        "type": "ElementNode",
+        "tag": "div",
+        "selfClosing": false,
+        "attributes": [
+          {
+            "type": "AttrNode",
+            "name": "class",
+            "value": {
+              "type": "TextNode",
+              "chars": "btn-group pull-right flex",
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 16
+                },
+                "end": {
+                  "line": 2,
+                  "column": 41
+                }
+              }
+            },
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 9
+              },
+              "end": {
+                "line": 2,
+                "column": 42
+              }
+            },
+            "isValueless": false,
+            "quoteType": "\""
+          }
+        ],
+        "blockParams": [],
+        "modifiers": [],
+        "comments": [],
+        "children": [
+          {
+            "type": "TextNode",
+            "chars": "\n      ",
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 43
+              },
+              "end": {
+                "line": 3,
+                "column": 6
+              }
+            }
+          },
+          {
+            "type": "BlockStatement",
+            "path": {
+              "original": "if",
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 9
+                },
+                "end": {
+                  "line": 3,
+                  "column": 11
+                }
+              },
+              "type": "PathExpression",
+              "this": false,
+              "data": false,
+              "parts": [
+                "if"
+              ]
+            },
+            "params": [
+              {
+                "original": "showActions",
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 23
+                  }
+                },
+                "type": "PathExpression",
+                "this": false,
+                "data": false,
+                "parts": [
+                  "showActions"
+                ]
+              }
+            ],
+            "hash": {
+              "type": "Hash",
+              "pairs": [],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 23
+                },
+                "end": {
+                  "line": 3,
+                  "column": 23
+                }
+              }
+            },
+            "program": {
+              "type": "Block",
+              "body": [
+                {
+                  "type": "TextNode",
+                  "chars": "\n      ",
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 6
+                    }
+                  }
+                },
+                {
+                  "type": "MustacheStatement",
+                  "path": {
+                    "original": "fsa-button",
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 18
+                      }
+                    },
+                    "type": "PathExpression",
+                    "this": false,
+                    "data": false,
+                    "parts": [
+                      "fsa-button"
+                    ]
+                  },
+                  "params": [],
+                  "hash": {
+                    "type": "Hash",
+                    "pairs": [
+                      {
+                        "type": "HashPair",
+                        "key": "type",
+                        "value": {
+                          "type": "StringLiteral",
+                          "value": "button",
+                          "original": "button",
+                          "loc": {
+                            "start": {
+                              "line": 5,
+                              "column": 13
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 21
+                            }
+                          },
+                          "quoteType": "\""
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 5,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 5,
+                            "column": 21
+                          }
+                        }
+                      },
+                      {
+                        "type": "HashPair",
+                        "key": "btnClass",
+                        "value": {
+                          "type": "StringLiteral",
+                          "value": "fsa-btn-secondary truncate-right",
+                          "original": "fsa-btn-secondary truncate-right",
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 17
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 51
+                            }
+                          },
+                          "quoteType": "\""
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 51
+                          }
+                        }
+                      },
+                      {
+                        "type": "HashPair",
+                        "key": "btnText",
+                        "value": {
+                          "type": "SubExpression",
+                          "path": {
+                            "original": "text-formatter-i18n",
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 36
+                              }
+                            },
+                            "type": "PathExpression",
+                            "this": false,
+                            "data": false,
+                            "parts": [
+                              "text-formatter-i18n"
+                            ]
+                          },
+                          "params": [
+                            {
+                              "original": "appointmentRowCTA.label",
+                              "loc": {
+                                "start": {
+                                  "line": 7,
+                                  "column": 37
+                                },
+                                "end": {
+                                  "line": 7,
+                                  "column": 60
+                                }
+                              },
+                              "type": "PathExpression",
+                              "this": false,
+                              "data": false,
+                              "parts": [
+                                "appointmentRowCTA",
+                                "label"
+                              ]
+                            }
+                          ],
+                          "hash": {
+                            "type": "Hash",
+                            "pairs": [
+                              {
+                                "type": "HashPair",
+                                "key": "app",
+                                "value": {
+                                  "original": "appointmentRowCTA.appName",
+                                  "loc": {
+                                    "start": {
+                                      "line": 7,
+                                      "column": 65
+                                    },
+                                    "end": {
+                                      "line": 7,
+                                      "column": 90
+                                    }
+                                  },
+                                  "type": "PathExpression",
+                                  "this": false,
+                                  "data": false,
+                                  "parts": [
+                                    "appointmentRowCTA",
+                                    "appName"
+                                  ]
+                                },
+                                "loc": {
+                                  "start": {
+                                    "line": 7,
+                                    "column": 61
+                                  },
+                                  "end": {
+                                    "line": 7,
+                                    "column": 90
+                                  }
+                                }
+                              },
+                              {
+                                "type": "HashPair",
+                                "key": "truncate",
+                                "value": {
+                                  "type": "BooleanLiteral",
+                                  "value": false,
+                                  "original": false,
+                                  "loc": {
+                                    "start": {
+                                      "line": 7,
+                                      "column": 100
+                                    },
+                                    "end": {
+                                      "line": 7,
+                                      "column": 105
+                                    }
+                                  }
+                                },
+                                "loc": {
+                                  "start": {
+                                    "line": 7,
+                                    "column": 91
+                                  },
+                                  "end": {
+                                    "line": 7,
+                                    "column": 105
+                                  }
+                                }
+                              }
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 61
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 105
+                              }
+                            }
+                          },
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 16
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 106
+                            }
+                          }
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 106
+                          }
+                        }
+                      },
+                      {
+                        "type": "HashPair",
+                        "key": "svgName",
+                        "value": {
+                          "original": "appointmentRowCTA.icon",
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 16
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 38
+                            }
+                          },
+                          "type": "PathExpression",
+                          "this": false,
+                          "data": false,
+                          "parts": [
+                            "appointmentRowCTA",
+                            "icon"
+                          ]
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 8,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 8,
+                            "column": 38
+                          }
+                        }
+                      },
+                      {
+                        "type": "HashPair",
+                        "key": "svgClass",
+                        "value": {
+                          "type": "StringLiteral",
+                          "value": "svg-md mg-r-5",
+                          "original": "svg-md mg-r-5",
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 17
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 32
+                            }
+                          },
+                          "quoteType": "\""
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 9,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 9,
+                            "column": 32
+                          }
+                        }
+                      },
+                      {
+                        "type": "HashPair",
+                        "key": "onclick",
+                        "value": {
+                          "type": "SubExpression",
+                          "path": {
+                            "original": "action",
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 23
+                              }
+                            },
+                            "type": "PathExpression",
+                            "this": false,
+                            "data": false,
+                            "parts": [
+                              "action"
+                            ]
+                          },
+                          "params": [
+                            {
+                              "original": "appointmentRowCTA.actionName",
+                              "loc": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 24
+                                },
+                                "end": {
+                                  "line": 10,
+                                  "column": 52
+                                }
+                              },
+                              "type": "PathExpression",
+                              "this": false,
+                              "data": false,
+                              "parts": [
+                                "appointmentRowCTA",
+                                "actionName"
+                              ]
+                            },
+                            {
+                              "original": "appointmentRowCTA.param",
+                              "loc": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 53
+                                },
+                                "end": {
+                                  "line": 10,
+                                  "column": 76
+                                }
+                              },
+                              "type": "PathExpression",
+                              "this": false,
+                              "data": false,
+                              "parts": [
+                                "appointmentRowCTA",
+                                "param"
+                              ]
+                            }
+                          ],
+                          "hash": {
+                            "type": "Hash",
+                            "pairs": [],
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 76
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 76
+                              }
+                            }
+                          },
+                          "loc": {
+                            "start": {
+                              "line": 10,
+                              "column": 16
+                            },
+                            "end": {
+                              "line": 10,
+                              "column": 77
+                            }
+                          }
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 10,
+                            "column": 77
+                          }
+                        }
+                      }
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 77
+                      }
+                    }
+                  },
+                  "escaped": true,
+                  "trusting": false,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 6
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 79
+                    }
+                  },
+                  "strip": {
+                    "open": false,
+                    "close": false
+                  }
+                },
+                {
+                  "type": "TextNode",
+                  "chars": "\n      ",
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 79
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 6
+                    }
+                  }
+                }
+              ],
+              "blockParams": [],
+              "chained": false,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 25
+                },
+                "end": {
+                  "line": 11,
+                  "column": 6
+                }
+              }
+            },
+            "inverse": null,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 6
+              },
+              "end": {
+                "line": 11,
+                "column": 13
+              }
+            },
+            "openStrip": {
+              "open": false,
+              "close": false
+            },
+            "inverseStrip": {
+              "close": false,
+              "open": false
+            },
+            "closeStrip": {
+              "open": false,
+              "close": false
+            }
+          },
+          {
+            "type": "TextNode",
+            "chars": "\n\n      ",
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 13
+              },
+              "end": {
+                "line": 13,
+                "column": 6
+              }
+            }
+          },
+          {
+            "type": "BlockStatement",
+            "path": {
+              "original": "if",
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 9
+                },
+                "end": {
+                  "line": 13,
+                  "column": 11
+                }
+              },
+              "type": "PathExpression",
+              "this": false,
+              "data": false,
+              "parts": [
+                "if"
+              ]
+            },
+            "params": [
+              {
+                "original": "moreActions.length",
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 30
+                  }
+                },
+                "type": "PathExpression",
+                "this": false,
+                "data": false,
+                "parts": [
+                  "moreActions",
+                  "length"
+                ]
+              }
+            ],
+            "hash": {
+              "type": "Hash",
+              "pairs": [],
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 30
+                },
+                "end": {
+                  "line": 13,
+                  "column": 30
+                }
+              }
+            },
+            "program": {
+              "type": "Block",
+              "body": [
+                {
+                  "type": "TextNode",
+                  "chars": "\n          ",
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 32
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 10
+                    }
+                  }
+                },
+                {
+                  "type": "BlockStatement",
+                  "path": {
+                    "original": "basic-dropdown",
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 13
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 27
+                      }
+                    },
+                    "type": "PathExpression",
+                    "this": false,
+                    "data": false,
+                    "parts": [
+                      "basic-dropdown"
+                    ]
+                  },
+                  "params": [],
+                  "hash": {
+                    "type": "Hash",
+                    "pairs": [
+                      {
+                        "type": "HashPair",
+                        "key": "horizontalPosition",
+                        "value": {
+                          "type": "SubExpression",
+                          "path": {
+                            "original": "if",
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 48
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 50
+                              }
+                            },
+                            "type": "PathExpression",
+                            "this": false,
+                            "data": false,
+                            "parts": [
+                              "if"
+                            ]
+                          },
+                          "params": [
+                            {
+                              "type": "SubExpression",
+                              "path": {
+                                "original": "is-RTL",
+                                "loc": {
+                                  "start": {
+                                    "line": 14,
+                                    "column": 52
+                                  },
+                                  "end": {
+                                    "line": 14,
+                                    "column": 58
+                                  }
+                                },
+                                "type": "PathExpression",
+                                "this": false,
+                                "data": false,
+                                "parts": [
+                                  "is-RTL"
+                                ]
+                              },
+                              "params": [],
+                              "hash": {
+                                "type": "Hash",
+                                "pairs": [],
+                                "loc": {
+                                  "start": {
+                                    "line": 14,
+                                    "column": 58
+                                  },
+                                  "end": {
+                                    "line": 14,
+                                    "column": 58
+                                  }
+                                }
+                              },
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 51
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 59
+                                }
+                              }
+                            },
+                            {
+                              "type": "StringLiteral",
+                              "value": "left",
+                              "original": "left",
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 60
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 66
+                                }
+                              },
+                              "quoteType": "'"
+                            },
+                            {
+                              "type": "StringLiteral",
+                              "value": "right",
+                              "original": "right",
+                              "loc": {
+                                "start": {
+                                  "line": 14,
+                                  "column": 67
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 74
+                                }
+                              },
+                              "quoteType": "'"
+                            }
+                          ],
+                          "hash": {
+                            "type": "Hash",
+                            "pairs": [],
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 74
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 74
+                              }
+                            }
+                          },
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 47
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 75
+                            }
+                          }
+                        },
+                        "loc": {
+                          "start": {
+                            "line": 14,
+                            "column": 28
+                          },
+                          "end": {
+                            "line": 14,
+                            "column": 75
+                          }
+                        }
+                      }
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 28
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 75
+                      }
+                    }
+                  },
+                  "program": {
+                    "type": "Block",
+                    "body": [
+                      {
+                        "type": "TextNode",
+                        "chars": "\n              ",
+                        "loc": {
+                          "start": {
+                            "line": 14,
+                            "column": 85
+                          },
+                          "end": {
+                            "line": 15,
+                            "column": 14
+                          }
+                        }
+                      },
+                      {
+                        "type": "BlockStatement",
+                        "path": {
+                          "original": "dd.trigger",
+                          "loc": {
+                            "start": {
+                              "line": 15,
+                              "column": 17
+                            },
+                            "end": {
+                              "line": 15,
+                              "column": 27
+                            }
+                          },
+                          "type": "PathExpression",
+                          "this": false,
+                          "data": false,
+                          "parts": [
+                            "dd",
+                            "trigger"
+                          ]
+                        },
+                        "params": [],
+                        "hash": {
+                          "type": "Hash",
+                          "pairs": [
+                            {
+                              "type": "HashPair",
+                              "key": "class",
+                              "value": {
+                                "type": "StringLiteral",
+                                "value": "pull-right",
+                                "original": "pull-right",
+                                "loc": {
+                                  "start": {
+                                    "line": 15,
+                                    "column": 34
+                                  },
+                                  "end": {
+                                    "line": 15,
+                                    "column": 46
+                                  }
+                                },
+                                "quoteType": "\""
+                              },
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 28
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 46
+                                }
+                              }
+                            }
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 15,
+                              "column": 28
+                            },
+                            "end": {
+                              "line": 15,
+                              "column": 46
+                            }
+                          }
+                        },
+                        "program": {
+                          "type": "Block",
+                          "body": [
+                            {
+                              "type": "TextNode",
+                              "chars": "\n                ",
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 48
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 16
+                                }
+                              }
+                            },
+                            {
+                              "type": "MustacheStatement",
+                              "path": {
+                                "original": "fsa-button",
+                                "loc": {
+                                  "start": {
+                                    "line": 16,
+                                    "column": 18
+                                  },
+                                  "end": {
+                                    "line": 16,
+                                    "column": 28
+                                  }
+                                },
+                                "type": "PathExpression",
+                                "this": false,
+                                "data": false,
+                                "parts": [
+                                  "fsa-button"
+                                ]
+                              },
+                              "params": [],
+                              "hash": {
+                                "type": "Hash",
+                                "pairs": [
+                                  {
+                                    "type": "HashPair",
+                                    "key": "type",
+                                    "value": {
+                                      "type": "StringLiteral",
+                                      "value": "button",
+                                      "original": "button",
+                                      "loc": {
+                                        "start": {
+                                          "line": 17,
+                                          "column": 23
+                                        },
+                                        "end": {
+                                          "line": 17,
+                                          "column": 31
+                                        }
+                                      },
+                                      "quoteType": "\""
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 17,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 17,
+                                        "column": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "HashPair",
+                                    "key": "btnClass",
+                                    "value": {
+                                      "original": "dropDownClass",
+                                      "loc": {
+                                        "start": {
+                                          "line": 18,
+                                          "column": 27
+                                        },
+                                        "end": {
+                                          "line": 18,
+                                          "column": 40
+                                        }
+                                      },
+                                      "type": "PathExpression",
+                                      "this": false,
+                                      "data": false,
+                                      "parts": [
+                                        "dropDownClass"
+                                      ]
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 18,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 18,
+                                        "column": 40
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "HashPair",
+                                    "key": "svgName",
+                                    "value": {
+                                      "type": "StringLiteral",
+                                      "value": "icon-ellipsis-v",
+                                      "original": "icon-ellipsis-v",
+                                      "loc": {
+                                        "start": {
+                                          "line": 19,
+                                          "column": 26
+                                        },
+                                        "end": {
+                                          "line": 19,
+                                          "column": 43
+                                        }
+                                      },
+                                      "quoteType": "\""
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 19,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 19,
+                                        "column": 43
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "HashPair",
+                                    "key": "svgClass",
+                                    "value": {
+                                      "type": "StringLiteral",
+                                      "value": "svg-md",
+                                      "original": "svg-md",
+                                      "loc": {
+                                        "start": {
+                                          "line": 20,
+                                          "column": 27
+                                        },
+                                        "end": {
+                                          "line": 20,
+                                          "column": 35
+                                        }
+                                      },
+                                      "quoteType": "\""
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 20,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 20,
+                                        "column": 35
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "HashPair",
+                                    "key": "data-test-more-actions",
+                                    "value": {
+                                      "type": "BooleanLiteral",
+                                      "value": true,
+                                      "original": true,
+                                      "loc": {
+                                        "start": {
+                                          "line": 21,
+                                          "column": 41
+                                        },
+                                        "end": {
+                                          "line": 21,
+                                          "column": 45
+                                        }
+                                      }
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 21,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 21,
+                                        "column": 45
+                                      }
+                                    }
+                                  }
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 17,
+                                    "column": 18
+                                  },
+                                  "end": {
+                                    "line": 21,
+                                    "column": 45
+                                  }
+                                }
+                              },
+                              "escaped": true,
+                              "trusting": false,
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 21,
+                                  "column": 47
+                                }
+                              },
+                              "strip": {
+                                "open": false,
+                                "close": false
+                              }
+                            },
+                            {
+                              "type": "TextNode",
+                              "chars": "\n              ",
+                              "loc": {
+                                "start": {
+                                  "line": 21,
+                                  "column": 47
+                                },
+                                "end": {
+                                  "line": 22,
+                                  "column": 14
+                                }
+                              }
+                            }
+                          ],
+                          "blockParams": [],
+                          "chained": false,
+                          "loc": {
+                            "start": {
+                              "line": 15,
+                              "column": 48
+                            },
+                            "end": {
+                              "line": 22,
+                              "column": 14
+                            }
+                          }
+                        },
+                        "inverse": null,
+                        "loc": {
+                          "start": {
+                            "line": 15,
+                            "column": 14
+                          },
+                          "end": {
+                            "line": 22,
+                            "column": 29
+                          }
+                        },
+                        "openStrip": {
+                          "open": false,
+                          "close": false
+                        },
+                        "inverseStrip": {
+                          "close": false,
+                          "open": false
+                        },
+                        "closeStrip": {
+                          "open": false,
+                          "close": false
+                        }
+                      },
+                      {
+                        "type": "TextNode",
+                        "chars": "\n\n              ",
+                        "loc": {
+                          "start": {
+                            "line": 22,
+                            "column": 29
+                          },
+                          "end": {
+                            "line": 24,
+                            "column": 14
+                          }
+                        }
+                      },
+                      {
+                        "type": "BlockStatement",
+                        "path": {
+                          "original": "dd.content",
+                          "loc": {
+                            "start": {
+                              "line": 24,
+                              "column": 17
+                            },
+                            "end": {
+                              "line": 24,
+                              "column": 27
+                            }
+                          },
+                          "type": "PathExpression",
+                          "this": false,
+                          "data": false,
+                          "parts": [
+                            "dd",
+                            "content"
+                          ]
+                        },
+                        "params": [],
+                        "hash": {
+                          "type": "Hash",
+                          "pairs": [
+                            {
+                              "type": "HashPair",
+                              "key": "class",
+                              "value": {
+                                "type": "StringLiteral",
+                                "value": "basic-dropdown-menu fsa-dropdown-menu home-page--dropdown",
+                                "original": "basic-dropdown-menu fsa-dropdown-menu home-page--dropdown",
+                                "loc": {
+                                  "start": {
+                                    "line": 24,
+                                    "column": 34
+                                  },
+                                  "end": {
+                                    "line": 24,
+                                    "column": 93
+                                  }
+                                },
+                                "quoteType": "\""
+                              },
+                              "loc": {
+                                "start": {
+                                  "line": 24,
+                                  "column": 28
+                                },
+                                "end": {
+                                  "line": 24,
+                                  "column": 93
+                                }
+                              }
+                            }
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 24,
+                              "column": 28
+                            },
+                            "end": {
+                              "line": 24,
+                              "column": 93
+                            }
+                          }
+                        },
+                        "program": {
+                          "type": "Block",
+                          "body": [
+                            {
+                              "type": "TextNode",
+                              "chars": "\n                ",
+                              "loc": {
+                                "start": {
+                                  "line": 24,
+                                  "column": 95
+                                },
+                                "end": {
+                                  "line": 25,
+                                  "column": 16
+                                }
+                              }
+                            },
+                            {
+                              "type": "BlockStatement",
+                              "path": {
+                                "original": "each",
+                                "loc": {
+                                  "start": {
+                                    "line": 25,
+                                    "column": 19
+                                  },
+                                  "end": {
+                                    "line": 25,
+                                    "column": 23
+                                  }
+                                },
+                                "type": "PathExpression",
+                                "this": false,
+                                "data": false,
+                                "parts": [
+                                  "each"
+                                ]
+                              },
+                              "params": [
+                                {
+                                  "original": "moreActions",
+                                  "loc": {
+                                    "start": {
+                                      "line": 25,
+                                      "column": 24
+                                    },
+                                    "end": {
+                                      "line": 25,
+                                      "column": 35
+                                    }
+                                  },
+                                  "type": "PathExpression",
+                                  "this": false,
+                                  "data": false,
+                                  "parts": [
+                                    "moreActions"
+                                  ]
+                                }
+                              ],
+                              "hash": {
+                                "type": "Hash",
+                                "pairs": [],
+                                "loc": {
+                                  "start": {
+                                    "line": 25,
+                                    "column": 35
+                                  },
+                                  "end": {
+                                    "line": 25,
+                                    "column": 35
+                                  }
+                                }
+                              },
+                              "program": {
+                                "type": "Block",
+                                "body": [
+                                  {
+                                    "type": "TextNode",
+                                    "chars": "\n                  ",
+                                    "loc": {
+                                      "start": {
+                                        "line": 25,
+                                        "column": 53
+                                      },
+                                      "end": {
+                                        "line": 26,
+                                        "column": 18
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "BlockStatement",
+                                    "path": {
+                                      "original": "if",
+                                      "loc": {
+                                        "start": {
+                                          "line": 26,
+                                          "column": 21
+                                        },
+                                        "end": {
+                                          "line": 26,
+                                          "column": 23
+                                        }
+                                      },
+                                      "type": "PathExpression",
+                                      "this": false,
+                                      "data": false,
+                                      "parts": [
+                                        "if"
+                                      ]
+                                    },
+                                    "params": [
+                                      {
+                                        "original": "actionInfo.isDivider",
+                                        "loc": {
+                                          "start": {
+                                            "line": 26,
+                                            "column": 24
+                                          },
+                                          "end": {
+                                            "line": 26,
+                                            "column": 44
+                                          }
+                                        },
+                                        "type": "PathExpression",
+                                        "this": false,
+                                        "data": false,
+                                        "parts": [
+                                          "actionInfo",
+                                          "isDivider"
+                                        ]
+                                      }
+                                    ],
+                                    "hash": {
+                                      "type": "Hash",
+                                      "pairs": [],
+                                      "loc": {
+                                        "start": {
+                                          "line": 26,
+                                          "column": 44
+                                        },
+                                        "end": {
+                                          "line": 26,
+                                          "column": 44
+                                        }
+                                      }
+                                    },
+                                    "program": {
+                                      "type": "Block",
+                                      "body": [
+                                        {
+                                          "type": "TextNode",
+                                          "chars": "\n                      ",
+                                          "loc": {
+                                            "start": {
+                                              "line": 26,
+                                              "column": 46
+                                            },
+                                            "end": {
+                                              "line": 27,
+                                              "column": 22
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "ElementNode",
+                                          "tag": "li",
+                                          "selfClosing": false,
+                                          "attributes": [
+                                            {
+                                              "type": "AttrNode",
+                                              "name": "class",
+                                              "value": {
+                                                "type": "TextNode",
+                                                "chars": "divider",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 27,
+                                                    "column": 33
+                                                  },
+                                                  "end": {
+                                                    "line": 27,
+                                                    "column": 40
+                                                  }
+                                                }
+                                              },
+                                              "loc": {
+                                                "start": {
+                                                  "line": 27,
+                                                  "column": 26
+                                                },
+                                                "end": {
+                                                  "line": 27,
+                                                  "column": 41
+                                                }
+                                              },
+                                              "isValueless": false,
+                                              "quoteType": "\""
+                                            }
+                                          ],
+                                          "blockParams": [],
+                                          "modifiers": [],
+                                          "comments": [],
+                                          "children": [],
+                                          "loc": {
+                                            "start": {
+                                              "line": 27,
+                                              "column": 22
+                                            },
+                                            "end": {
+                                              "line": 27,
+                                              "column": 47
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "TextNode",
+                                          "chars": "\n                  ",
+                                          "loc": {
+                                            "start": {
+                                              "line": 27,
+                                              "column": 47
+                                            },
+                                            "end": {
+                                              "line": 28,
+                                              "column": 18
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "blockParams": [],
+                                      "chained": false,
+                                      "loc": {
+                                        "start": {
+                                          "line": 26,
+                                          "column": 46
+                                        },
+                                        "end": {
+                                          "line": 28,
+                                          "column": 18
+                                        }
+                                      }
+                                    },
+                                    "inverse": {
+                                      "type": "Block",
+                                      "body": [
+                                        {
+                                          "type": "BlockStatement",
+                                          "path": {
+                                            "original": "if",
+                                            "loc": {
+                                              "start": {
+                                                "line": 28,
+                                                "column": 25
+                                              },
+                                              "end": {
+                                                "line": 28,
+                                                "column": 27
+                                              }
+                                            },
+                                            "type": "PathExpression",
+                                            "this": false,
+                                            "data": false,
+                                            "parts": [
+                                              "if"
+                                            ]
+                                          },
+                                          "params": [
+                                            {
+                                              "original": "actionInfo.targetableActions",
+                                              "loc": {
+                                                "start": {
+                                                  "line": 28,
+                                                  "column": 28
+                                                },
+                                                "end": {
+                                                  "line": 28,
+                                                  "column": 56
+                                                }
+                                              },
+                                              "type": "PathExpression",
+                                              "this": false,
+                                              "data": false,
+                                              "parts": [
+                                                "actionInfo",
+                                                "targetableActions"
+                                              ]
+                                            }
+                                          ],
+                                          "hash": {
+                                            "type": "Hash",
+                                            "pairs": [],
+                                            "loc": {
+                                              "start": {
+                                                "line": 28,
+                                                "column": 56
+                                              },
+                                              "end": {
+                                                "line": 28,
+                                                "column": 56
+                                              }
+                                            }
+                                          },
+                                          "program": {
+                                            "type": "Block",
+                                            "body": [
+                                              {
+                                                "type": "TextNode",
+                                                "chars": "\n                    ",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 28,
+                                                    "column": 58
+                                                  },
+                                                  "end": {
+                                                    "line": 29,
+                                                    "column": 20
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "MustacheStatement",
+                                                "path": {
+                                                  "original": "module-dashboard/home-page/entity-common-actions",
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 29,
+                                                      "column": 22
+                                                    },
+                                                    "end": {
+                                                      "line": 29,
+                                                      "column": 70
+                                                    }
+                                                  },
+                                                  "type": "PathExpression",
+                                                  "this": false,
+                                                  "data": false,
+                                                  "parts": [
+                                                    "module-dashboard/home-page/entity-common-actions"
+                                                  ]
+                                                },
+                                                "params": [],
+                                                "hash": {
+                                                  "type": "Hash",
+                                                  "pairs": [
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "targetable",
+                                                      "value": {
+                                                        "original": "targetable",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 82
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 92
+                                                          }
+                                                        },
+                                                        "type": "PathExpression",
+                                                        "this": false,
+                                                        "data": false,
+                                                        "parts": [
+                                                          "targetable"
+                                                        ]
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 71
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 92
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "showDivider",
+                                                      "value": {
+                                                        "type": "SubExpression",
+                                                        "path": {
+                                                          "original": "not",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 29,
+                                                              "column": 106
+                                                            },
+                                                            "end": {
+                                                              "line": 29,
+                                                              "column": 109
+                                                            }
+                                                          },
+                                                          "type": "PathExpression",
+                                                          "this": false,
+                                                          "data": false,
+                                                          "parts": [
+                                                            "not"
+                                                          ]
+                                                        },
+                                                        "params": [
+                                                          {
+                                                            "original": "isCompleted",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 29,
+                                                                "column": 110
+                                                              },
+                                                              "end": {
+                                                                "line": 29,
+                                                                "column": 121
+                                                              }
+                                                            },
+                                                            "type": "PathExpression",
+                                                            "this": false,
+                                                            "data": false,
+                                                            "parts": [
+                                                              "isCompleted"
+                                                            ]
+                                                          }
+                                                        ],
+                                                        "hash": {
+                                                          "type": "Hash",
+                                                          "pairs": [],
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 29,
+                                                              "column": 121
+                                                            },
+                                                            "end": {
+                                                              "line": 29,
+                                                              "column": 121
+                                                            }
+                                                          }
+                                                        },
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 105
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 122
+                                                          }
+                                                        }
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 93
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 122
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "dd",
+                                                      "value": {
+                                                        "original": "dd",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 126
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 128
+                                                          }
+                                                        },
+                                                        "type": "PathExpression",
+                                                        "this": false,
+                                                        "data": false,
+                                                        "parts": [
+                                                          "dd"
+                                                        ]
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 123
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 128
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "activityType",
+                                                      "value": {
+                                                        "type": "StringLiteral",
+                                                        "value": "Appointment",
+                                                        "original": "Appointment",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 142
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 155
+                                                          }
+                                                        },
+                                                        "quoteType": "'"
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 129
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 155
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "activity",
+                                                      "value": {
+                                                        "original": "model",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 165
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 170
+                                                          }
+                                                        },
+                                                        "type": "PathExpression",
+                                                        "this": false,
+                                                        "data": false,
+                                                        "parts": [
+                                                          "model"
+                                                        ]
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 156
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 170
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "HashPair",
+                                                      "key": "calculatePosition",
+                                                      "value": {
+                                                        "type": "SubExpression",
+                                                        "path": {
+                                                          "original": "action",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 29,
+                                                              "column": 190
+                                                            },
+                                                            "end": {
+                                                              "line": 29,
+                                                              "column": 196
+                                                            }
+                                                          },
+                                                          "type": "PathExpression",
+                                                          "this": false,
+                                                          "data": false,
+                                                          "parts": [
+                                                            "action"
+                                                          ]
+                                                        },
+                                                        "params": [
+                                                          {
+                                                            "type": "StringLiteral",
+                                                            "value": "getPosition",
+                                                            "original": "getPosition",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 29,
+                                                                "column": 197
+                                                              },
+                                                              "end": {
+                                                                "line": 29,
+                                                                "column": 210
+                                                              }
+                                                            },
+                                                            "quoteType": "\""
+                                                          },
+                                                          {
+                                                            "type": "SubExpression",
+                                                            "path": {
+                                                              "original": "is-RTL",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 29,
+                                                                  "column": 212
+                                                                },
+                                                                "end": {
+                                                                  "line": 29,
+                                                                  "column": 218
+                                                                }
+                                                              },
+                                                              "type": "PathExpression",
+                                                              "this": false,
+                                                              "data": false,
+                                                              "parts": [
+                                                                "is-RTL"
+                                                              ]
+                                                            },
+                                                            "params": [],
+                                                            "hash": {
+                                                              "type": "Hash",
+                                                              "pairs": [],
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 29,
+                                                                  "column": 218
+                                                                },
+                                                                "end": {
+                                                                  "line": 29,
+                                                                  "column": 218
+                                                                }
+                                                              }
+                                                            },
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 29,
+                                                                "column": 211
+                                                              },
+                                                              "end": {
+                                                                "line": 29,
+                                                                "column": 219
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "hash": {
+                                                          "type": "Hash",
+                                                          "pairs": [],
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 29,
+                                                              "column": 219
+                                                            },
+                                                            "end": {
+                                                              "line": 29,
+                                                              "column": 219
+                                                            }
+                                                          }
+                                                        },
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 29,
+                                                            "column": 189
+                                                          },
+                                                          "end": {
+                                                            "line": 29,
+                                                            "column": 220
+                                                          }
+                                                        }
+                                                      },
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 29,
+                                                          "column": 171
+                                                        },
+                                                        "end": {
+                                                          "line": 29,
+                                                          "column": 220
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 29,
+                                                      "column": 71
+                                                    },
+                                                    "end": {
+                                                      "line": 29,
+                                                      "column": 220
+                                                    }
+                                                  }
+                                                },
+                                                "escaped": true,
+                                                "trusting": false,
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 29,
+                                                    "column": 20
+                                                  },
+                                                  "end": {
+                                                    "line": 29,
+                                                    "column": 222
+                                                  }
+                                                },
+                                                "strip": {
+                                                  "open": false,
+                                                  "close": false
+                                                }
+                                              },
+                                              {
+                                                "type": "TextNode",
+                                                "chars": "\n                  ",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 29,
+                                                    "column": 222
+                                                  },
+                                                  "end": {
+                                                    "line": 30,
+                                                    "column": 18
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "blockParams": [],
+                                            "chained": false,
+                                            "loc": {
+                                              "start": {
+                                                "line": 28,
+                                                "column": 58
+                                              },
+                                              "end": {
+                                                "line": 30,
+                                                "column": 18
+                                              }
+                                            }
+                                          },
+                                          "inverse": {
+                                            "type": "Block",
+                                            "body": [
+                                              {
+                                                "type": "TextNode",
+                                                "chars": "\n\n                    ",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 30,
+                                                    "column": 26
+                                                  },
+                                                  "end": {
+                                                    "line": 32,
+                                                    "column": 20
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "BlockStatement",
+                                                "path": {
+                                                  "original": "if",
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 32,
+                                                      "column": 23
+                                                    },
+                                                    "end": {
+                                                      "line": 32,
+                                                      "column": 25
+                                                    }
+                                                  },
+                                                  "type": "PathExpression",
+                                                  "this": false,
+                                                  "data": false,
+                                                  "parts": [
+                                                    "if"
+                                                  ]
+                                                },
+                                                "params": [
+                                                  {
+                                                    "original": "actionInfo.children",
+                                                    "loc": {
+                                                      "start": {
+                                                        "line": 32,
+                                                        "column": 26
+                                                      },
+                                                      "end": {
+                                                        "line": 32,
+                                                        "column": 45
+                                                      }
+                                                    },
+                                                    "type": "PathExpression",
+                                                    "this": false,
+                                                    "data": false,
+                                                    "parts": [
+                                                      "actionInfo",
+                                                      "children"
+                                                    ]
+                                                  }
+                                                ],
+                                                "hash": {
+                                                  "type": "Hash",
+                                                  "pairs": [],
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 32,
+                                                      "column": 45
+                                                    },
+                                                    "end": {
+                                                      "line": 32,
+                                                      "column": 45
+                                                    }
+                                                  }
+                                                },
+                                                "program": {
+                                                  "type": "Block",
+                                                  "body": [
+                                                    {
+                                                      "type": "TextNode",
+                                                      "chars": "\n\n                      ",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 32,
+                                                          "column": 47
+                                                        },
+                                                        "end": {
+                                                          "line": 34,
+                                                          "column": 22
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "MustacheStatement",
+                                                      "path": {
+                                                        "original": "child-dropdown",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 34,
+                                                            "column": 24
+                                                          },
+                                                          "end": {
+                                                            "line": 34,
+                                                            "column": 38
+                                                          }
+                                                        },
+                                                        "type": "PathExpression",
+                                                        "this": false,
+                                                        "data": false,
+                                                        "parts": [
+                                                          "child-dropdown"
+                                                        ]
+                                                      },
+                                                      "params": [],
+                                                      "hash": {
+                                                        "type": "Hash",
+                                                        "pairs": [
+                                                          {
+                                                            "type": "HashPair",
+                                                            "key": "data",
+                                                            "value": {
+                                                              "original": "actionInfo",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 34,
+                                                                  "column": 46
+                                                                },
+                                                                "end": {
+                                                                  "line": 34,
+                                                                  "column": 56
+                                                                }
+                                                              },
+                                                              "type": "PathExpression",
+                                                              "this": false,
+                                                              "data": false,
+                                                              "parts": [
+                                                                "actionInfo"
+                                                              ]
+                                                            },
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 34,
+                                                                "column": 39
+                                                              },
+                                                              "end": {
+                                                                "line": 34,
+                                                                "column": 56
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "HashPair",
+                                                            "key": "onItemClick",
+                                                            "value": {
+                                                              "type": "SubExpression",
+                                                              "path": {
+                                                                "original": "action",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 34,
+                                                                    "column": 72
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 34,
+                                                                    "column": 78
+                                                                  }
+                                                                },
+                                                                "type": "PathExpression",
+                                                                "this": false,
+                                                                "data": false,
+                                                                "parts": [
+                                                                  "action"
+                                                                ]
+                                                              },
+                                                              "params": [
+                                                                {
+                                                                  "type": "StringLiteral",
+                                                                  "value": "snooze",
+                                                                  "original": "snooze",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 34,
+                                                                      "column": 79
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 34,
+                                                                      "column": 87
+                                                                    }
+                                                                  },
+                                                                  "quoteType": "\""
+                                                                }
+                                                              ],
+                                                              "hash": {
+                                                                "type": "Hash",
+                                                                "pairs": [],
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 34,
+                                                                    "column": 87
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 34,
+                                                                    "column": 87
+                                                                  }
+                                                                }
+                                                              },
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 34,
+                                                                  "column": 71
+                                                                },
+                                                                "end": {
+                                                                  "line": 34,
+                                                                  "column": 88
+                                                                }
+                                                              }
+                                                            },
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 34,
+                                                                "column": 57
+                                                              },
+                                                              "end": {
+                                                                "line": 34,
+                                                                "column": 88
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "HashPair",
+                                                            "key": "calculatePosition",
+                                                            "value": {
+                                                              "type": "SubExpression",
+                                                              "path": {
+                                                                "original": "action",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 34,
+                                                                    "column": 108
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 34,
+                                                                    "column": 114
+                                                                  }
+                                                                },
+                                                                "type": "PathExpression",
+                                                                "this": false,
+                                                                "data": false,
+                                                                "parts": [
+                                                                  "action"
+                                                                ]
+                                                              },
+                                                              "params": [
+                                                                {
+                                                                  "type": "StringLiteral",
+                                                                  "value": "getPosition",
+                                                                  "original": "getPosition",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 34,
+                                                                      "column": 115
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 34,
+                                                                      "column": 128
+                                                                    }
+                                                                  },
+                                                                  "quoteType": "\""
+                                                                },
+                                                                {
+                                                                  "type": "SubExpression",
+                                                                  "path": {
+                                                                    "original": "is-RTL",
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 34,
+                                                                        "column": 130
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 34,
+                                                                        "column": 136
+                                                                      }
+                                                                    },
+                                                                    "type": "PathExpression",
+                                                                    "this": false,
+                                                                    "data": false,
+                                                                    "parts": [
+                                                                      "is-RTL"
+                                                                    ]
+                                                                  },
+                                                                  "params": [],
+                                                                  "hash": {
+                                                                    "type": "Hash",
+                                                                    "pairs": [],
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 34,
+                                                                        "column": 136
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 34,
+                                                                        "column": 136
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 34,
+                                                                      "column": 129
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 34,
+                                                                      "column": 137
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "hash": {
+                                                                "type": "Hash",
+                                                                "pairs": [],
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 34,
+                                                                    "column": 137
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 34,
+                                                                    "column": 137
+                                                                  }
+                                                                }
+                                                              },
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 34,
+                                                                  "column": 107
+                                                                },
+                                                                "end": {
+                                                                  "line": 34,
+                                                                  "column": 138
+                                                                }
+                                                              }
+                                                            },
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 34,
+                                                                "column": 89
+                                                              },
+                                                              "end": {
+                                                                "line": 34,
+                                                                "column": 138
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "HashPair",
+                                                            "key": "renderInPlace",
+                                                            "value": {
+                                                              "type": "BooleanLiteral",
+                                                              "value": true,
+                                                              "original": true,
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 34,
+                                                                  "column": 153
+                                                                },
+                                                                "end": {
+                                                                  "line": 34,
+                                                                  "column": 157
+                                                                }
+                                                              }
+                                                            },
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 34,
+                                                                "column": 139
+                                                              },
+                                                              "end": {
+                                                                "line": 34,
+                                                                "column": 157
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 34,
+                                                            "column": 39
+                                                          },
+                                                          "end": {
+                                                            "line": 34,
+                                                            "column": 157
+                                                          }
+                                                        }
+                                                      },
+                                                      "escaped": true,
+                                                      "trusting": false,
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 34,
+                                                          "column": 22
+                                                        },
+                                                        "end": {
+                                                          "line": 34,
+                                                          "column": 159
+                                                        }
+                                                      },
+                                                      "strip": {
+                                                        "open": false,
+                                                        "close": false
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "TextNode",
+                                                      "chars": "\n\n                    ",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 34,
+                                                          "column": 159
+                                                        },
+                                                        "end": {
+                                                          "line": 36,
+                                                          "column": 20
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "blockParams": [],
+                                                  "chained": false,
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 32,
+                                                      "column": 47
+                                                    },
+                                                    "end": {
+                                                      "line": 36,
+                                                      "column": 20
+                                                    }
+                                                  }
+                                                },
+                                                "inverse": {
+                                                  "type": "Block",
+                                                  "body": [
+                                                    {
+                                                      "type": "TextNode",
+                                                      "chars": "\n                    ",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 36,
+                                                          "column": 28
+                                                        },
+                                                        "end": {
+                                                          "line": 37,
+                                                          "column": 20
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "ElementNode",
+                                                      "tag": "li",
+                                                      "selfClosing": false,
+                                                      "attributes": [
+                                                        {
+                                                          "type": "AttrNode",
+                                                          "name": "class",
+                                                          "value": {
+                                                            "type": "TextNode",
+                                                            "chars": "menu-item icon-shade-default",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 37,
+                                                                "column": 79
+                                                              },
+                                                              "end": {
+                                                                "line": 37,
+                                                                "column": 107
+                                                              }
+                                                            }
+                                                          },
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 37,
+                                                              "column": 72
+                                                            },
+                                                            "end": {
+                                                              "line": 37,
+                                                              "column": 108
+                                                            }
+                                                          },
+                                                          "isValueless": false,
+                                                          "quoteType": "\""
+                                                        }
+                                                      ],
+                                                      "blockParams": [],
+                                                      "modifiers": [
+                                                        {
+                                                          "type": "ElementModifierStatement",
+                                                          "path": {
+                                                            "original": "action",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 37,
+                                                                "column": 26
+                                                              },
+                                                              "end": {
+                                                                "line": 37,
+                                                                "column": 32
+                                                              }
+                                                            },
+                                                            "type": "PathExpression",
+                                                            "this": false,
+                                                            "data": false,
+                                                            "parts": [
+                                                              "action"
+                                                            ]
+                                                          },
+                                                          "params": [
+                                                            {
+                                                              "type": "StringLiteral",
+                                                              "value": "invokeAction",
+                                                              "original": "invokeAction",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 37,
+                                                                  "column": 33
+                                                                },
+                                                                "end": {
+                                                                  "line": 37,
+                                                                  "column": 47
+                                                                }
+                                                              },
+                                                              "quoteType": "\""
+                                                            },
+                                                            {
+                                                              "original": "actionInfo.actionName",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 37,
+                                                                  "column": 48
+                                                                },
+                                                                "end": {
+                                                                  "line": 37,
+                                                                  "column": 69
+                                                                }
+                                                              },
+                                                              "type": "PathExpression",
+                                                              "this": false,
+                                                              "data": false,
+                                                              "parts": [
+                                                                "actionInfo",
+                                                                "actionName"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "hash": {
+                                                            "type": "Hash",
+                                                            "pairs": [],
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 37,
+                                                                "column": 69
+                                                              },
+                                                              "end": {
+                                                                "line": 37,
+                                                                "column": 69
+                                                              }
+                                                            }
+                                                          },
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 37,
+                                                              "column": 24
+                                                            },
+                                                            "end": {
+                                                              "line": 37,
+                                                              "column": 71
+                                                            }
+                                                          }
+                                                        }
+                                                      ],
+                                                      "comments": [],
+                                                      "children": [
+                                                        {
+                                                          "type": "TextNode",
+                                                          "chars": "\n                        ",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 37,
+                                                              "column": 109
+                                                            },
+                                                            "end": {
+                                                              "line": 38,
+                                                              "column": 24
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "MustacheStatement",
+                                                          "path": {
+                                                            "original": "svg-jar",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 38,
+                                                                "column": 26
+                                                              },
+                                                              "end": {
+                                                                "line": 38,
+                                                                "column": 33
+                                                              }
+                                                            },
+                                                            "type": "PathExpression",
+                                                            "this": false,
+                                                            "data": false,
+                                                            "parts": [
+                                                              "svg-jar"
+                                                            ]
+                                                          },
+                                                          "params": [
+                                                            {
+                                                              "original": "actionInfo.icon",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 38,
+                                                                  "column": 34
+                                                                },
+                                                                "end": {
+                                                                  "line": 38,
+                                                                  "column": 49
+                                                                }
+                                                              },
+                                                              "type": "PathExpression",
+                                                              "this": false,
+                                                              "data": false,
+                                                              "parts": [
+                                                                "actionInfo",
+                                                                "icon"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "hash": {
+                                                            "type": "Hash",
+                                                            "pairs": [
+                                                              {
+                                                                "type": "HashPair",
+                                                                "key": "class",
+                                                                "value": {
+                                                                  "type": "StringLiteral",
+                                                                  "value": "svg-md mg-r-10",
+                                                                  "original": "svg-md mg-r-10",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 38,
+                                                                      "column": 56
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 38,
+                                                                      "column": 72
+                                                                    }
+                                                                  },
+                                                                  "quoteType": "\""
+                                                                },
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 38,
+                                                                    "column": 50
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 38,
+                                                                    "column": 72
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 38,
+                                                                "column": 50
+                                                              },
+                                                              "end": {
+                                                                "line": 38,
+                                                                "column": 72
+                                                              }
+                                                            }
+                                                          },
+                                                          "escaped": true,
+                                                          "trusting": false,
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 38,
+                                                              "column": 24
+                                                            },
+                                                            "end": {
+                                                              "line": 38,
+                                                              "column": 74
+                                                            }
+                                                          },
+                                                          "strip": {
+                                                            "open": false,
+                                                            "close": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "TextNode",
+                                                          "chars": "\n                          ",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 38,
+                                                              "column": 74
+                                                            },
+                                                            "end": {
+                                                              "line": 39,
+                                                              "column": 26
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "ElementNode",
+                                                          "tag": "span",
+                                                          "selfClosing": false,
+                                                          "attributes": [
+                                                            {
+                                                              "type": "AttrNode",
+                                                              "name": "class",
+                                                              "value": {
+                                                                "type": "TextNode",
+                                                                "chars": "icon-align",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 39,
+                                                                    "column": 39
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 39,
+                                                                    "column": 49
+                                                                  }
+                                                                }
+                                                              },
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 39,
+                                                                  "column": 32
+                                                                },
+                                                                "end": {
+                                                                  "line": 39,
+                                                                  "column": 50
+                                                                }
+                                                              },
+                                                              "isValueless": false,
+                                                              "quoteType": "\""
+                                                            }
+                                                          ],
+                                                          "blockParams": [],
+                                                          "modifiers": [],
+                                                          "comments": [],
+                                                          "children": [
+                                                            {
+                                                              "type": "TextNode",
+                                                              "chars": "\n                            ",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 39,
+                                                                  "column": 51
+                                                                },
+                                                                "end": {
+                                                                  "line": 40,
+                                                                  "column": 28
+                                                                }
+                                                              }
+                                                            },
+                                                            {
+                                                              "type": "MustacheStatement",
+                                                              "path": {
+                                                                "original": "text-formatter-i18n",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 40,
+                                                                    "column": 30
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 40,
+                                                                    "column": 49
+                                                                  }
+                                                                },
+                                                                "type": "PathExpression",
+                                                                "this": false,
+                                                                "data": false,
+                                                                "parts": [
+                                                                  "text-formatter-i18n"
+                                                                ]
+                                                              },
+                                                              "params": [
+                                                                {
+                                                                  "original": "actionInfo.label",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 40,
+                                                                      "column": 50
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 40,
+                                                                      "column": 66
+                                                                    }
+                                                                  },
+                                                                  "type": "PathExpression",
+                                                                  "this": false,
+                                                                  "data": false,
+                                                                  "parts": [
+                                                                    "actionInfo",
+                                                                    "label"
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "hash": {
+                                                                "type": "Hash",
+                                                                "pairs": [
+                                                                  {
+                                                                    "type": "HashPair",
+                                                                    "key": "truncate",
+                                                                    "value": {
+                                                                      "type": "BooleanLiteral",
+                                                                      "value": true,
+                                                                      "original": true,
+                                                                      "loc": {
+                                                                        "start": {
+                                                                          "line": 40,
+                                                                          "column": 76
+                                                                        },
+                                                                        "end": {
+                                                                          "line": 40,
+                                                                          "column": 80
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 40,
+                                                                        "column": 67
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 40,
+                                                                        "column": 80
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "type": "HashPair",
+                                                                    "key": "width",
+                                                                    "value": {
+                                                                      "type": "StringLiteral",
+                                                                      "value": "400px",
+                                                                      "original": "400px",
+                                                                      "loc": {
+                                                                        "start": {
+                                                                          "line": 40,
+                                                                          "column": 87
+                                                                        },
+                                                                        "end": {
+                                                                          "line": 40,
+                                                                          "column": 94
+                                                                        }
+                                                                      },
+                                                                      "quoteType": "\""
+                                                                    },
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 40,
+                                                                        "column": 81
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 40,
+                                                                        "column": 94
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 40,
+                                                                    "column": 67
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 40,
+                                                                    "column": 94
+                                                                  }
+                                                                }
+                                                              },
+                                                              "escaped": true,
+                                                              "trusting": false,
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 40,
+                                                                  "column": 28
+                                                                },
+                                                                "end": {
+                                                                  "line": 40,
+                                                                  "column": 96
+                                                                }
+                                                              },
+                                                              "strip": {
+                                                                "open": false,
+                                                                "close": false
+                                                              }
+                                                            },
+                                                            {
+                                                              "type": "TextNode",
+                                                              "chars": "\n                          ",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 40,
+                                                                  "column": 96
+                                                                },
+                                                                "end": {
+                                                                  "line": 41,
+                                                                  "column": 26
+                                                                }
+                                                              }
+                                                            }
+                                                          ],
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 39,
+                                                              "column": 26
+                                                            },
+                                                            "end": {
+                                                              "line": 41,
+                                                              "column": 33
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "TextNode",
+                                                          "chars": "\n                      ",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 41,
+                                                              "column": 33
+                                                            },
+                                                            "end": {
+                                                              "line": 42,
+                                                              "column": 22
+                                                            }
+                                                          }
+                                                        }
+                                                      ],
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 37,
+                                                          "column": 20
+                                                        },
+                                                        "end": {
+                                                          "line": 42,
+                                                          "column": 27
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "TextNode",
+                                                      "chars": "\n                    ",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 42,
+                                                          "column": 27
+                                                        },
+                                                        "end": {
+                                                          "line": 43,
+                                                          "column": 20
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "blockParams": [],
+                                                  "chained": false,
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 36,
+                                                      "column": 28
+                                                    },
+                                                    "end": {
+                                                      "line": 43,
+                                                      "column": 20
+                                                    }
+                                                  }
+                                                },
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 32,
+                                                    "column": 20
+                                                  },
+                                                  "end": {
+                                                    "line": 43,
+                                                    "column": 27
+                                                  }
+                                                },
+                                                "openStrip": {
+                                                  "open": false,
+                                                  "close": false
+                                                },
+                                                "inverseStrip": {
+                                                  "open": false,
+                                                  "close": false
+                                                },
+                                                "closeStrip": {
+                                                  "open": false,
+                                                  "close": false
+                                                }
+                                              },
+                                              {
+                                                "type": "TextNode",
+                                                "chars": "\n                  ",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 43,
+                                                    "column": 27
+                                                  },
+                                                  "end": {
+                                                    "line": 44,
+                                                    "column": 18
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "blockParams": [],
+                                            "chained": false,
+                                            "loc": {
+                                              "start": {
+                                                "line": 30,
+                                                "column": 26
+                                              },
+                                              "end": {
+                                                "line": 44,
+                                                "column": 18
+                                              }
+                                            }
+                                          },
+                                          "loc": {
+                                            "start": {
+                                              "line": 28,
+                                              "column": 18
+                                            },
+                                            "end": {
+                                              "line": 44,
+                                              "column": 18
+                                            }
+                                          },
+                                          "openStrip": {
+                                            "open": false,
+                                            "close": false
+                                          },
+                                          "inverseStrip": {
+                                            "open": false,
+                                            "close": false
+                                          },
+                                          "closeStrip": {
+                                            "open": false,
+                                            "close": false
+                                          }
+                                        }
+                                      ],
+                                      "blockParams": [],
+                                      "chained": true,
+                                      "loc": {
+                                        "start": {
+                                          "line": 28,
+                                          "column": 58
+                                        },
+                                        "end": {
+                                          "line": 30,
+                                          "column": 18
+                                        }
+                                      }
+                                    },
+                                    "loc": {
+                                      "start": {
+                                        "line": 26,
+                                        "column": 18
+                                      },
+                                      "end": {
+                                        "line": 44,
+                                        "column": 25
+                                      }
+                                    },
+                                    "openStrip": {
+                                      "open": false,
+                                      "close": false
+                                    },
+                                    "inverseStrip": {
+                                      "open": false,
+                                      "close": false
+                                    },
+                                    "closeStrip": {
+                                      "open": false,
+                                      "close": false
+                                    }
+                                  },
+                                  {
+                                    "type": "TextNode",
+                                    "chars": "\n                ",
+                                    "loc": {
+                                      "start": {
+                                        "line": 44,
+                                        "column": 25
+                                      },
+                                      "end": {
+                                        "line": 45,
+                                        "column": 16
+                                      }
+                                    }
+                                  }
+                                ],
+                                "blockParams": [
+                                  "actionInfo"
+                                ],
+                                "chained": false,
+                                "loc": {
+                                  "start": {
+                                    "line": 25,
+                                    "column": 53
+                                  },
+                                  "end": {
+                                    "line": 45,
+                                    "column": 16
+                                  }
+                                }
+                              },
+                              "inverse": null,
+                              "loc": {
+                                "start": {
+                                  "line": 25,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 45,
+                                  "column": 25
+                                }
+                              },
+                              "openStrip": {
+                                "open": false,
+                                "close": false
+                              },
+                              "inverseStrip": {
+                                "close": false,
+                                "open": false
+                              },
+                              "closeStrip": {
+                                "open": false,
+                                "close": false
+                              }
+                            },
+                            {
+                              "type": "TextNode",
+                              "chars": "\n              ",
+                              "loc": {
+                                "start": {
+                                  "line": 45,
+                                  "column": 25
+                                },
+                                "end": {
+                                  "line": 46,
+                                  "column": 14
+                                }
+                              }
+                            }
+                          ],
+                          "blockParams": [],
+                          "chained": false,
+                          "loc": {
+                            "start": {
+                              "line": 24,
+                              "column": 95
+                            },
+                            "end": {
+                              "line": 46,
+                              "column": 14
+                            }
+                          }
+                        },
+                        "inverse": null,
+                        "loc": {
+                          "start": {
+                            "line": 24,
+                            "column": 14
+                          },
+                          "end": {
+                            "line": 46,
+                            "column": 29
+                          }
+                        },
+                        "openStrip": {
+                          "open": false,
+                          "close": false
+                        },
+                        "inverseStrip": {
+                          "close": false,
+                          "open": false
+                        },
+                        "closeStrip": {
+                          "open": false,
+                          "close": false
+                        }
+                      },
+                      {
+                        "type": "TextNode",
+                        "chars": "\n            ",
+                        "loc": {
+                          "start": {
+                            "line": 46,
+                            "column": 29
+                          },
+                          "end": {
+                            "line": 47,
+                            "column": 12
+                          }
+                        }
+                      }
+                    ],
+                    "blockParams": [
+                      "dd"
+                    ],
+                    "chained": false,
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 85
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 12
+                      }
+                    }
+                  },
+                  "inverse": null,
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 31
+                    }
+                  },
+                  "openStrip": {
+                    "open": false,
+                    "close": false
+                  },
+                  "inverseStrip": {
+                    "close": false,
+                    "open": false
+                  },
+                  "closeStrip": {
+                    "open": false,
+                    "close": false
+                  }
+                },
+                {
+                  "type": "TextNode",
+                  "chars": "\n      ",
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 6
+                    }
+                  }
+                }
+              ],
+              "blockParams": [],
+              "chained": false,
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 32
+                },
+                "end": {
+                  "line": 48,
+                  "column": 6
+                }
+              }
+            },
+            "inverse": null,
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 6
+              },
+              "end": {
+                "line": 48,
+                "column": 13
+              }
+            },
+            "openStrip": {
+              "open": false,
+              "close": false
+            },
+            "inverseStrip": {
+              "close": false,
+              "open": false
+            },
+            "closeStrip": {
+              "open": false,
+              "close": false
+            }
+          },
+          {
+            "type": "TextNode",
+            "chars": "\n    ",
+            "loc": {
+              "start": {
+                "line": 48,
+                "column": 13
+              },
+              "end": {
+                "line": 49,
+                "column": 4
+              }
+            }
+          }
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 4
+          },
+          "end": {
+            "line": 49,
+            "column": 10
+          }
+        }
+      }
+    ],
+    "blockParams": [],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 49,
+        "column": 10
+      }
+    }
+  }
