@@ -32,6 +32,7 @@ program
   .option('--truncate <number>',
     'length to truncate lines (default: 100, off: 0)', parseInt)
   .option('--debug', 'print debug information')
+  .option('-M, --mode [loose|strict]', 'template match mode', 'loose')
   .parse(process.argv);
 
 // Check and parse the config file, if it exists
@@ -49,7 +50,7 @@ if (fs.existsSync(rcPath) && fs.lstatSync(rcPath).isFile()) {
   }
 
   ['threshold', 'identifiers', 'literals', 'ignore', 'minInstances',
-   'reporter', 'truncate'].forEach((option) => {
+   'reporter', 'truncate', 'mode'].forEach((option) => {
     if (program[option] === undefined && (option in rc)) {
       program[option] = rc[option];
     }
@@ -93,7 +94,8 @@ var inspector = new Inspector(paths, {
   threshold:    program.threshold,
   identifiers:  program.identifiers,
   literals:     program.literals,
-  minInstances: program.minInstances
+  minInstances: program.minInstances,
+  mode: program.mode
 });
 
 // Retrieve the requested reporter
