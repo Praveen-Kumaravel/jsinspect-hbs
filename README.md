@@ -66,6 +66,7 @@ Options:
   -h, --help                         output usage information
   -V, --version                      output the version number
   -t, --threshold <number>           number of nodes (default: 30)
+  -M, --mode [strict|loose]          toggles between strict and loose mode. loose mode ignores attribute keys and only focuses on component names and hierarchy.
   -m, --min-instances <number>       min instances for a match (default: 2)
   -c, --config [config]              path to config file (default: .jsinspectrc)
   -r, --reporter [default|json|pmd]  specify the reporter to use
