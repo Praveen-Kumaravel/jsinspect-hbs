@@ -1,7 +1,7 @@
 {
-  "name": "jsinspect",
-  "version": "0.12.7",
-  "description": "Detect structural similarities in your code",
+  "name": "hbsinspect",
+  "version": "0.0.1",
+  "description": "Detect structural similarities in your ember templates. Forked from jsinspect",
   "keywords": [
     "inspect",
     "detect",
@@ -11,12 +11,12 @@
     "copy",
     "paste"
   ],
-  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
+  "author": "Praveen Kumaravel <praveen.kumaravel@freshworks.com>",
   "license": "MIT",
-  "homepage": "https://github.com/danielstjules/jsinspect",
+  "homepage": "https://github.com/Praveen-Kumaravel/jsinspect-hbs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielstjules/jsinspect.git"
+    "url": "https://github.com/Praveen-Kumaravel/jsinspect-hbs.git"
   },
   "dependencies": {
     "babylon": "6.16.1",
@@ -35,7 +35,7 @@
     "mocha": "^3.5.0"
   },
   "bin": {
-    "jsinspect": "./bin/jsinspect"
+    "hbsinspect": "./bin/hbsinspect"
   },
   "scripts": {
     "test": "mocha -R spec spec spec/reporters"
