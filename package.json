@@ -19,7 +19,6 @@
     "url": "https://github.com/Praveen-Kumaravel/jsinspect-hbs.git"
   },
   "dependencies": {
-    "babylon": "6.16.1",
     "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "ember-template-recast": "git+ssh://git@github.com/Praveen-Kumaravel/ember-template-recast.git#compiled_output",
