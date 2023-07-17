@@ -48,7 +48,7 @@ ignored.
 It can be installed via `npm` using:
 
 ``` bash
-npm install -g hbsinspect
+npm i -g "hbsinspect@git+ssh://git@github.com/Praveen-Kumaravel/jsinspect-hbs#npm_package"
 ```
 
 ## Usage
