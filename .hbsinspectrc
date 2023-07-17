@@ -1,6 +1,0 @@
-{
-  "threshold":     30,
-  "minInstances":  2,
-  "truncate":      100,
-  "mode": "loose"
-}
