@@ -21,13 +21,19 @@
     </div>
     <div id="instance-pickers">
         <div id="leftBlockInput" class="full-width-input col-4">
-            <label for="leftBlockInputDropdown">Code block A:</label>
+            <label for="leftBlockInputDropdown">
+                <span>Code block A-</span>
+                <span id="leftBlockMeta"></span>
+            </label>
             <select name="leftBlockInputDropdown" id="leftBlockInputDropdown">
                 <option value="" disabled selected>Select file first</option>
             </select>
         </div>
         <div id="rightBlockInput" class="full-width-input col-4">
-            <label for="rightBlockInputDropdown">Code block B:</label>
+            <label for="rightBlockInputDropdown">
+                <span>Code block B-</span>
+                <span id="rightBlockMeta"></span>
+            </label>
             <select name="rightBlockInputDropdown" id="rightBlockInputDropdown">
                 <option value="" disabled selected>Select file first</option>
             </select>
