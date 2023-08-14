@@ -11,6 +11,7 @@ rewritten for the 0.10 release and saw several breaking changes.
 * [Overview](#overview)
 * [Installation](#installation)
 * [Usage](#usage)
+* [JSON viewer](#json-viewer)
 * [Integration](#integration)
 * [Reporters](#reporters)
 
@@ -66,7 +67,7 @@ Options:
   -h, --help                         output usage information
   -V, --version                      output the version number
   -t, --threshold <number>           number of nodes (default: 30)
-  -M, --mode [strict|loose]          toggles between strict and loose mode. loose mode ignores attribute keys and only focuses on component names and hierarchy.
+  -M, --mode [strict|loose]          toggles between strict(default) and loose mode. loose mode ignores attribute keys and only focuses on component names and hierarchy.
   -m, --min-instances <number>       min instances for a match (default: 2)
   -c, --config [config]              path to config file (default: .jsinspectrc)
   -r, --reporter [default|json|pmd]  specify the reporter to use
@@ -91,6 +92,7 @@ be used in place of the defaults listed above. For example:
   "ignore":        "test|spec|mock",
   "reporter":      "json",
   "truncate":      100,
+  "mode":          "strict|loose"
 }
 ```
 
@@ -105,6 +107,20 @@ hbsinspect -t 50 --ignore "test" ./path/to/src
 From there, feel free to try decreasing the threshold, ignoring identifiers
 using the `-I` flag and ignoring literals with `-L`. A lower threshold may lead
 you to discover new areas of interest for refactoring or cleanup.
+
+
+## JSON viewer
+To save manual work in comparing similar templates, a web plugin that shows
+diffs across found matches has been bundled with the library.
+To use it, run below command:
+```
+hbsinspect-viewer
+```
+Use the tool to select JSON file containing output of hbsinspect run with
+reporter as JSON
+```
+hbsinspect ./path/to-src -r json
+```
 
 ## Integration
 
