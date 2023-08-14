@@ -32,7 +32,7 @@ program
   .option('--truncate <number>',
     'length to truncate lines (default: 100, off: 0)', parseInt)
   .option('--debug', 'print debug information')
-  .option('-M, --mode [loose|strict]', 'template match mode', 'loose')
+  .option('-M, --mode [loose|strict]', 'template match mode', 'strict')
   .parse(process.argv);
 
 // Check and parse the config file, if it exists
