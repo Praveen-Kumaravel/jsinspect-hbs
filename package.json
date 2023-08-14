@@ -1,6 +1,6 @@
 {
   "name": "hbsinspect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect structural similarities in your ember templates. Forked from jsinspect",
   "keywords": [
     "inspect",
