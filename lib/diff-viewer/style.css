@@ -110,6 +110,12 @@ ins {
 	flex-basis: 10rem;
 }
 
+.icon-lg {
+	font-size: 2em;
+	cursor: pointer;
+	display: none;
+}
+
 @-moz-document url-prefix() {
 	body {
 		height: 99%; /* Hide scroll bar in Firefox */
