@@ -1,0 +1,5 @@
+const path = require('path');
+
+import('open').then(({default: open}) => {
+    open(path.join(__dirname, '..', 'lib', 'diff-viewer', 'index.html'));
+})
