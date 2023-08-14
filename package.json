@@ -44,7 +44,8 @@
     "mocha": "^3.5.0"
   },
   "bin": {
-    "hbsinspect": "./bin/hbsinspect"
+    "hbsinspect": "./bin/hbsinspect",
+    "hbsinspect-viewer": "./bin/hbsinspect-viewer"
   },
   "scripts": {
     "test": "mocha -R spec spec spec/reporters"
