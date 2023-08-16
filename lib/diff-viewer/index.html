@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Diff</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="inputs">
+    <div id="json" class="row">
+        <label class="col-3" for="import-file-button">hbsinspect json file:</label>
+        <button type="button" class="col-3" id="import-file-button">Browse...</button>
+        <input type="file" id="file-input-json" />
+    </div>
+    <div id="similarity-input-container" class="row">
+        <label class="col-3" for="similarity-input-dropdown">Match to view:</label>
+        <select name="similarity-input-dropdown" class="col-3" id="similarity-input-dropdown">
+            <option value="" disabled selected>Select file first</option>
+        </select>
+    </div>
+    <div id="instance-pickers">
+        <div id="leftBlockInput" class="full-width-input col-4">
+            <label for="leftBlockInputDropdown">
+                <span>Code block A-</span>
+                <span id="leftBlockMeta"></span>
+                <span title="Copy file location to clipboard" class="icon-lg" id="leftBlockMetaCopy">&#x2398;</span>
+            </label>
+            <select name="leftBlockInputDropdown" id="leftBlockInputDropdown">
+                <option value="" disabled selected>Select file first</option>
+            </select>
+        </div>
+        <div id="rightBlockInput" class="full-width-input col-4">
+            <label for="rightBlockInputDropdown">
+                <span>Code block B-</span>
+                <span id="rightBlockMeta"></span>
+                <span title="Copy file location to clipboard" class="icon-lg" id="rightBlockMetaCopy">&#x2398;</span>
+            </label>
+            <select name="rightBlockInputDropdown" id="rightBlockInputDropdown">
+                <option value="" disabled selected>Select file first</option>
+            </select>
+        </div>
+        <div>
+        </div>
+    </div>
+</div>
+
+<div id="settings">
+	<h1>Diff</h1>
+	<label><input type="radio" name="diff_type" value="diffChars"> Chars</label>
+	<label><input type="radio" name="diff_type" value="diffWords" checked> Words</label>
+	<label><input type="radio" name="diff_type" value="diffLines"> Lines</label>
+</div>
+
+
+<table>
+	<tr>
+		<td contenteditable="true" id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis qui harum deserunt, sint recusandae totam.</td>
+		<td contenteditable="true" id="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iure accusamus natus architecto sapiente sed ab rerum! Cum laudantium eius perferendis, error doloremque veritatis ducimus voluptatibus possimus, vero, qui minima.</td>
+		<td><pre id="result"></pre></td>
+	</tr>
+</table>
+<script src="diff.js"></script>
+<script defer src="main.js"></script>
+<script defer src="preloadContents.js"></script>
+</body>
+</html>

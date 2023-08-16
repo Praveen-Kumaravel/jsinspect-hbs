@@ -1,7 +1,7 @@
 {
-  "name": "jsinspect",
-  "version": "0.12.7",
-  "description": "Detect structural similarities in your code",
+  "name": "hbsinspect",
+  "version": "0.1.1",
+  "description": "Detect structural similarities in your ember templates. Forked from jsinspect",
   "keywords": [
     "inspect",
     "detect",
@@ -11,21 +11,31 @@
     "copy",
     "paste"
   ],
-  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
+  "author": "Praveen Kumaravel <praveen.kumaravel@freshworks.com>",
   "license": "MIT",
-  "homepage": "https://github.com/danielstjules/jsinspect",
+  "homepage": "https://github.com/Praveen-Kumaravel/jsinspect-hbs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielstjules/jsinspect.git"
+    "url": "https://github.com/Praveen-Kumaravel/jsinspect-hbs.git"
   },
   "dependencies": {
-    "babylon": "6.16.1",
+    "@glimmer/reference": "^0.84.3",
+    "@glimmer/syntax": "^0.84.3",
+    "@glimmer/validator": "^0.84.3",
+    "async-promise-queue": "^1.0.5",
     "chalk": "^2.1.0",
+    "colors": "^1.4.0",
     "commander": "^2.11.0",
     "filepaths": "0.3.0",
+    "globby": "^11.0.3",
+    "open": "^9.1.0",
+    "ora": "^5.4.0",
+    "slash": "^3.0.0",
     "stable": "^0.1.6",
     "strip-indent": "^1.0.1",
-    "strip-json-comments": "1.0.2"
+    "strip-json-comments": "1.0.2",
+    "tmp": "^0.2.1",
+    "workerpool": "^6.4.0"
   },
   "devDependencies": {
     "concat-stream": "^1.5.0",
@@ -34,7 +44,8 @@
     "mocha": "^3.5.0"
   },
   "bin": {
-    "jsinspect": "./bin/jsinspect"
+    "hbsinspect": "./bin/hbsinspect",
+    "hbsinspect-viewer": "./bin/hbsinspect-viewer"
   },
   "scripts": {
     "test": "mocha -R spec spec spec/reporters"
